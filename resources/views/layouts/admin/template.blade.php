@@ -7,9 +7,10 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>GrowTalenta</title>
+    <title>Absen Fingerprint</title>
 
     <meta name="description" content="" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com https://fonts.gstatic.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdn.jsdelivr.net; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https: blob:; connect-src 'self';" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon"w
@@ -120,6 +121,8 @@
     @include('sweetalert::alert')
 
     @stack('scripts')
+    
+    @yield('js')
 
     {{-- UNTUk TOAST 2 DETIK --}}
     <script>

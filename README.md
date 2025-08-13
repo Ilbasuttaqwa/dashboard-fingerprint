@@ -1,15 +1,15 @@
 <img src="https://iili.io/2ryrDep.md.png" alt="Logo" class="app-brand-logo" style="max-width: 100; height: auto;">
 
-# GTMS - Grow Talenta Management System
+# AFMS - Absen Fingerprint Management System
 
-Grow Talenta Management System (GTMS) adalah sebuah sistem untuk manajemen karyawan yang dirancang untuk memudahkan administrasi perusahaan dalam mengelola data karyawan, penggajian, cuti, absensi, dan rekrutmen.
+Absen Fingerprint Management System (AFMS) adalah sebuah sistem untuk manajemen karyawan yang dirancang untuk memudahkan administrasi perusahaan dalam mengelola data karyawan, penggajian, absensi, dan rekrutmen.
 
 ---
 
 ## 📋 Fitur-Fitur
 
 ### Deskripsi
-Berikut adalah fitur-fitur yang tersedia dalam GTMS:
+Berikut adalah fitur-fitur yang tersedia dalam AFMS:
 
 ### Fitur Khusus Admin
 
@@ -18,14 +18,13 @@ Berikut adalah fitur-fitur yang tersedia dalam GTMS:
 | **Management Karyawan** | Mengelola data karyawan, termasuk menambah, mengedit, dan menghapus data karyawan. |
 | **Penggajian Karyawan**  | Mengatur penggajian karyawan dengan perhitungan otomatis dan laporan gaji. |
 | **Rekrutmen Karyawan**   | Mengelola proses rekrutmen mulai dari pengumuman lowongan hingga seleksi. |
-| **Management Cuti**      | Mengatur pengajuan dan persetujuan cuti karyawan. |
+
 | **Management Data Pribadi** | Mengelola informasi pribadi karyawan seperti alamat, kontak, dan dokumen penting. |
 | **Management Data Absensi** | Mencatat dan memantau kehadiran karyawan. |
 | **Management Laporan**   | Membuat laporan terkait kinerja dan data karyawan. |
 
 ### Fitur Khusus untuk Karyawan/User
 - Absensi harian secara online.
-- Pengajuan cuti langsung dari sistem.
 - Izin sakit dengan mengunggah bukti.
 - Melihat slip gaji dan histori pembayaran.
 
@@ -44,10 +43,10 @@ Berikut adalah fitur-fitur yang tersedia dalam GTMS:
 Ikuti langkah-langkah berikut untuk menginstal project HRMS:
 
 1. Clone atau download source code
-    - Para terminal, clone repo `git@github.com:hardihardi/GrowTalenta.git`
-    - atau `git clone https://github.com/hardihardi/GrowTalenta.git`
+    - Para terminal, clone repo `git@github.com:hardihardi/AbsenFingerprint.git`
+    - atau `git clone https://github.com/hardihardi/AbsenFingerprint.git`
     - Jika tidak menggunakan Git, silakan **Download Zip** dan *extract* pada direktori web server (misal: laragon/www atau xampp/htdocs)
-2. `cd GrowTalenta`
+2. `cd AbsenFingerprint`
 3. `composer install`
 4. `cp .env.example .env`
     - Jika tidak menggunakan Git, bisa rename file `.env.example` menjadi `.env`
@@ -67,4 +66,4 @@ Ikuti langkah-langkah berikut untuk menginstal project HRMS:
 
 ---
 
-**GTMS** adalah solusi terbaik untuk mempermudah proses administrasi sumber daya manusia di perusahaan Anda!
+**AFMS** adalah solusi terbaik untuk mempermudah proses administrasi sumber daya manusia di perusahaan Anda!

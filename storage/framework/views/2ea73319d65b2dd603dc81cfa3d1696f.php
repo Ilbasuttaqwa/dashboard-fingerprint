@@ -1,0 +1,1 @@
+<?php /**PATH C:\laragon\www\dashboard-fingerprint\resources\views\include\user\footer.blade.php ENDPATH**/ ?>
