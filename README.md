@@ -1,4 +1,4 @@
-<img src="https://iili.io/2ryrDep.md.png" alt="Logo" class="app-brand-logo" style="max-width: 100; height: auto;">
+
 
 # AFMS - Absen Fingerprint Management System
 
